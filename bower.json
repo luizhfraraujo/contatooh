@@ -1,0 +1,25 @@
+{
+  "name": "contatooh",
+  "description": "Aplicativo criado como exercicio do livro MEAN da casa do Código",
+  "main": "index.js",
+  "authors": [
+    "Luiz Henrique"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-resource": "~1.4.8"
+  }
+}
