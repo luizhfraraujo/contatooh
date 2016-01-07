@@ -5,7 +5,7 @@ var GitHubStrategy = require('passport-github').Strategy;
 
 module.exports = function() {
   var Usuario = mongoose.model('Usuario');
-
+//https://scotch.io/courses/easy-node-authentication
   passport.use(new GitHubStrategy({
     clientID: '6d1442e66a6e7cfe8d16',
     clientSecret: 'a175a66870de67372f7daaf883b43e6ba0928e9c',
